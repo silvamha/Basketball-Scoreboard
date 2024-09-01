@@ -1,4 +1,5 @@
 /* 
+Basketball Scoreboard
 Pseudocode for the Basketball Scoreboard App:
 
 Initialize variables:
