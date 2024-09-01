@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 20px;
+}
+
+.team {
+    text-align: center;
+}
+
+.team h2 {
+    margin-bottom: 10px;
+}
+
+#home-score, #visitor-score {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
