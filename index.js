@@ -32,4 +32,18 @@ Call the update scoreboard display function to show the initial scores and posse
 */
 
 
+const container = document.querySelector(".container");
+const homeScoreDisplay = document.querySelector("#home-score");
+const visitorScoreDisplay = document.querySelector("#visitor-score");
+const onePointBtn = document.querySelector("#one-point-btn");
+const twoPointBtn = document.querySelector("#two-point-btn");
+const threePointBtn = document.querySelector("#three-point-btn");
+const possessionIndicator = document.querySelector("#possession-indicator");
 
+container.addEventListener("click", () => {
+    container.backgroundColor = "red";
+    console.log("I've been clicked")
+}
+
+
+)

@@ -1,4 +1,5 @@
 /* Basketball Scoreboard */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -37,4 +38,10 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+ #possession-indicator {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-top: 20px;
 }
