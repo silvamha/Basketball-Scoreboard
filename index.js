@@ -40,10 +40,30 @@ const twoPointBtn = document.querySelector("#two-point-btn");
 const threePointBtn = document.querySelector("#three-point-btn");
 const possessionIndicator = document.querySelector("#possession-indicator");
 
-container.addEventListener("click", () => {
-    container.backgroundColor = "red";
-    console.log("I've been clicked")
-}
+// container.addEventListener('click', () =>{
+//     if (container.style.backgroundColor === "transparent"){
+//         container.style.backgroundColor = "red"
+//     }else if
+//         (container.style.backgroundColor === "red"){
+//             container.style.backgroundColor = "transparent"
+//         }       
+    
+//    console.log("I've been clicked!")  
+// })
 
+// Codiumate suggestion below
 
-)
+// Ensure the container has a class to toggle
+container.classList.add('toggle-background');
+
+container.addEventListener('click', () => {
+    if (container.classList.contains('red-background')) {
+        container.classList.remove('red-background');
+        container.classList.add('transparent-background');
+    } else {
+        container.classList.remove('transparent-background');
+        container.classList.add('red-background');
+    }
+
+    console.log("I've been clicked!");
+});
