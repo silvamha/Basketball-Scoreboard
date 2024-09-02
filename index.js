@@ -1,4 +1,5 @@
 /*
+Basketball Scoreboard
 Initialize variables:
 
 homeScore = 0
