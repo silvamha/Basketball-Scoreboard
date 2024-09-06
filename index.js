@@ -23,3 +23,11 @@ const handleClick = (e) => {
         console.log('This code is crap')
     
 }
+
+// Attach event listeners to the buttons
+home1Button.addEventListener('click', handleClick);
+home2Button.addEventListener('click', handleClick);
+home3Button.addEventListener('click', handleClick);
+guest1Button.addEventListener('click', handleClick);
+guest2Button.addEventListener('click', handleClick);
+guest3Button.addEventListener('click', handleClick);
