@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Basketball Scoreboard</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Basketball Scoreboard -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <div class="container">
-      <h1>Scoreboard</h1>
-
-      <div class="score-board">
-        <div class="team">
-          <h2>Home</h2>
-          <div id="home-score">3</div>
+        <div class="scoreboard">
+            <div class="team">
+                <h2>HOME</h2>
+                <span id="home-score">0</span>
+            </div>
+            <div class="team">
+                <h2>GUEST</h2>
+                <span id="guest-score">0</span>
+            </div>
         </div>
-        <div class="team">
-          <h2>Visitors</h2>
-          <div id="visitor-score">6</div>
+        <div class="buttons">
+            <div class="home-buttons">
+                <button id="home-1">+1</button>
+                <button id="home-2">+2</button>
+                <button id="home-3">+3</button>
+            </div>
+            <div class="guest-buttons">
+                <button id="guest-1">+1</button>
+                <button id="guest-2">+2</button>
+                <button id="guest-3">+3</button>
+            </div>
         </div>
-      </div>
-
-      <div class="buttons">
-        <button id="one-point-btn">1 Point</button>
-        <button id="two-point-btn">2 Points</button>
-        <button id="three-point-btn">3 Points</button>
-      </div>
     </div>
-    <div>
-      <p id="possession-indicator">test</p>
-    </div>
-
-    <script src="index.js"></script>
-  </body>
+    <script src="index.js"></script> </body>
 </html>

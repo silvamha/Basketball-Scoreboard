@@ -1,42 +1,25 @@
-/*
-Basketball Scoreboard
-Initialize variables:
+// Get the score displays
+const homeScoreDisplay = document.querySelector('#home-score');
+const guestScoreDisplay = document.querySelector('#guest-score');
 
-homeScore = 0
-visitorScore = 0
-possession = "home" // Start with home team having possession
-Get references to HTML elements:
+// Get the buttons
+const home1Button = document.querySelector('#home-1');
+const home2Button = document.querySelector('#home-2');
+const home3Button = document.querySelector('#home-3');
+const guest1Button = document.querySelector('#guest-1');
+const guest2Button = document.querySelector('#guest-2');
+const guest3Button = document.querySelector('#guest-3');
 
-homeScoreDisplay
-visitorScoreDisplay
-onePointBtn, twoPointBtn, threePointBtn
-possessionIndicator (the element that will show which team has possession)
-Add event listeners to buttons:
+let homeScore = 0;
+let guestScore = 0;
 
-When any scoring button is clicked:
-If possession is "home":
-Add the corresponding points to homeScore.
-Update homeScoreDisplay.
-Else if possession is "visitors":
-Add the corresponding points to visitorScore.
-Update visitorScoreDisplay.
-Toggle possession to the other team.
-Update possessionIndicator to reflect the change.
-Update scoreboard display function:
+// ... (Your logic to update scores and handle button clicks will go here)
 
-A function to update the homeScoreDisplay and visitorScoreDisplay.
-A function to update the possessionIndicator to visually highlight the team with possession.
-Initial setup:
-
-Call the update scoreboard display function to show the initial scores and possession.
-*/
-
-
-const container = document.querySelector(".container");
-const homeScoreDisplay = document.querySelector("#home-score");
-const visitorScoreDisplay = document.querySelector("#visitor-score");
-const onePointBtn = document.querySelector("#one-point-btn");
-const twoPointBtn = document.querySelector("#two-point-btn");
-const threePointBtn = document.querySelector("#three-point-btn");
-const possessionIndicator = document.querySelector("#possession-indicator");
-
+const handleClick = (e) => {
+    if (e.target ===home1Button){
+        console.log(home1Button)
+        console.log('I was clicked')
+    }else 
+        console.log('This code is crap')
+    
+}

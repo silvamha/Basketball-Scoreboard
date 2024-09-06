@@ -1,27 +1,31 @@
-/* Basketball Scoreboard */
+body {
+    background-color: #c2d6d6; /* Light blue-gray background */
+    font-family: 'Digital-7', sans-serif; /* We'll replace this with the actual font later */
+    display: flex;
+    justify-content: flex-end; /* Align scoreboard to the right */
+    align-items: center;
+    min-height: 100vh;
+    padding: 1.875rem;
+}
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: sans-serif;
+    transform: rotate(10deg); 
+    background-color: #383b53; /* Light gray background for container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Codiumate suggestion below */
-
-/* .transparent-background {
-    background-color: transparent;
-}
-
-.red-background {
-    background-color: red;
-} */
-
-.score-board {
+.scoreboard {
     display: flex;
     justify-content: space-around;
-    width: 50%;
-    margin: 20px;
+    background-color: #383b53; /* Dark blue background for scoreboard */
+    color: #FF69B4; /* Pink text color */
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px; /* Increased width for more space */
+    margin-left: auto; 
+    margin-right: 20px; /* Adjust as needed to prevent overflow */
 }
 
 .team {
@@ -30,28 +34,45 @@
 
 .team h2 {
     margin-bottom: 10px;
+    font-size: 24px;
 }
 
-#home-score, #visitor-score {
-    font-size: 3em;
-    font-weight: bold;
+.team span {
+    font-size: 48px;
 }
 
 .buttons {
     display: flex;
-    gap: 10px;
+    justify-content: space-around;
+    margin-top: 20px; 
+}
+
+
+.home-buttons, .guest-buttons {
+    display: flex;
 }
 
 button {
+    background-color: transparent; /* Make the buttons clear */
+    border: 1px solid white; /* Add a white border to the buttons */
+    color: white;
     padding: 10px 20px;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
- #possession-indicator {
-    font-size: 3.5em;
-    font-weight: bold;
-    margin-top: 20px;
+/* ... (previous CSS) ... */
+
+.team span {
+    font-size: 72px; /* Make the numbers larger for a digital feel */
+    background-color: black; /* Black background for the numbers */
+    color: #FF0000; /* Bright red text color */
+    padding: 10px 20px; /* Add some padding for better visibility */
+    border-radius: 5px; /* Slightly rounded corners */
+    display: inline-block; /* Ensures the background and padding apply correctly */
 }
