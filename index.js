@@ -48,4 +48,4 @@ guest1Button.addEventListener("click", handleClick);
 guest2Button.addEventListener("click", handleClick);
 guest3Button.addEventListener("click", handleClick);
 
-// Other logic goes here
+// Other logic goes below
