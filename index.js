@@ -13,7 +13,7 @@ const guest3Button = document.querySelector("#guest-3");
 let homeScore = 0;
 let guestScore = 0;
 
-// ... Logic here!
+// ... e and event
 
 const handleClick = (e) => {
   if (e.target === home1Button) {
