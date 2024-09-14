@@ -9,11 +9,6 @@ const home3Button = document.querySelector("#home-3");
 const guest1Button = document.
 
 // Carving a place in the code to add something else
-
-
-
-
-
 querySelector("#guest-1");
 const guest2Button = document.querySelector("#guest-2");
 const guest3Button = document.querySelector("#guest-3");
