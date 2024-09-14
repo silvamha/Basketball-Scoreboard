@@ -6,7 +6,15 @@ const guestScoreDisplay = document.querySelector("#guest-score");
 const home1Button = document.querySelector("#home-1");
 const home2Button = document.querySelector("#home-2");
 const home3Button = document.querySelector("#home-3");
-const guest1Button = document.querySelector("#guest-1");
+const guest1Button = document.
+
+// Carving a place in the code to add something else
+
+
+
+
+
+querySelector("#guest-1");
 const guest2Button = document.querySelector("#guest-2");
 const guest3Button = document.querySelector("#guest-3");
 
